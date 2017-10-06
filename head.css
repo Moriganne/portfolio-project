@@ -1,6 +1,7 @@
 .jumbotron {
 	background: #3A7CA5;
 	text-align: center;
+	font-family: "Lucida Console", Lucida, Monospace;
 }
 .center {
 	text-align: : center;
@@ -10,4 +11,10 @@ body {
 	margin-left: 100px;
 	margin-bottom: 100px;
 	text-align: center;
+	font-family: "Lucida Console", Lucida, Monospace;
+}
+p {
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 20px;
 }
