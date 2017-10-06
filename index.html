@@ -14,6 +14,14 @@
 </div>
 </head>
 <body>
+	<script>
+		document.onload = myFunction();
+		function myFunction(){
+			var messageList = ["Hi","Hello","Hey","How are you?","Are you well?"];
+			var randomNumber = Math.floor(Math.random()*messageList.length);
+		document.getElementById('welcomeMsg').innerHTML = messageList[randomNumber];
+		}
+	</script>	
 	<div class="center">
     	<img src="surfing.png" alt="Surfing">
     	<h1>
