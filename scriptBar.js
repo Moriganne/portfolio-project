@@ -5,15 +5,15 @@ var element = d3.select('#myGraphBar');
 var graphnode = element.node();
 
 
-var graphTitle = "My First BAR graph";
+var graphTitle = "My Fruit BAR graph";
 
 var data1 = {
   name: 'Red Title',
-  x: ['Apples', 'Oranges', 'Blueberries'],
-  y: [1000000, 3000000, 2000000],
+  x: ['Apples', 'Oranges', 'Blueberries','Strawberries','Pears','Coconuts'],
+  y: [20, 5,20,25,10,22],
   type: 'bar',
   marker: {
-    color: ['#C8A2C8', 'red', 'blue'],
+    color: ['#C8A2C8', 'red', 'blue','pink','green','purple'],
     line: {
         width: 2.5
     } 
